@@ -4,11 +4,11 @@ import { Menu, X, Linkedin, Map } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const links = [
-  { label: "Our Story", href: "#about" },
-  { label: "Expertise", href: "#skills" },
-  { label: "Journey", href: "#experience" },
-  { label: "Innovations", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "Profil", href: "#about" },
+  { label: "Kompetenzen", href: "#skills" },
+  { label: "Berufserfahrung", href: "#experience" },
+  { label: "Bildung", href: "#education" },
+  { label: "Kontakt", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -51,10 +51,10 @@ export default function Navbar() {
         <a href="#" className="flex items-center gap-3">
           <div className={`bg-blue-500 rounded-2xl text-white shadow-lg transition-all duration-500 ${scrolled ? "p-1.5" : "p-2"} dark:bg-transparent dark:shadow-none dark:p-0`}>
             <Map size={scrolled ? 20 : 24} className="dark:hidden" />
-            <span className="hidden dark:inline text-2xl font-black text-white tracking-widest uppercase">BB</span>
+            <span className="hidden dark:inline text-2xl font-black text-white tracking-widest uppercase">VK</span>
           </div>
           <span className={`font-black text-blue-600 italic tracking-tighter uppercase drop-shadow-sm transition-all duration-500 ${scrolled ? "text-xl" : "text-2xl"} dark:text-white dark:not-italic dark:tracking-widest dark:drop-shadow-none`}>
-            BEWIN
+            VISHNU
           </span>
         </a>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
           ))}
           <ThemeToggle />
           <a 
-            href="https://www.linkedin.com/in/bewin-babu-150405170/" 
+            href="https://www.linkedin.com/in/vishnu-suresh-aa55b6118/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-blue-50 rounded-2xl text-blue-500 hover:bg-blue-500 hover:text-white transition-all shadow-sm dark:bg-white/5 dark:text-white dark:border dark:border-white/10 dark:hover:bg-white/10 dark:shadow-none"
@@ -108,7 +108,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a 
-                href="https://www.linkedin.com/in/bewin-babu-150405170/" 
+                href="https://www.linkedin.com/in/vishnu-suresh-aa55b6118/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-shinkai w-full dark:bg-transparent dark:border dark:border-white/10 dark:shadow-none dark:text-blue-400 dark:flex dark:items-center dark:gap-2"

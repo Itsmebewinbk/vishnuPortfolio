@@ -10,13 +10,13 @@ export default function Footer() {
              Always Forward
            </h4>
            <p className="text-slate-500 text-lg font-medium leading-relaxed">
-             Continuing the journey of engineering excellence, one innovation at a time. 
-             Let's build something beautiful together.
+             Ein engagierter und detailorientierter Fachmann mit einer starken Bereitschaft zu lernen und sich weiterzuentwickeln. 
+             Lassen Sie uns gemeinsam innovative Lösungen schaffen.
            </p>
         </div>
         
         <a 
-          href="https://www.linkedin.com/in/bewin-babu-150405170/" 
+          href="https://www.linkedin.com/in/vishnu-suresh-aa55b6118/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn-shinkai px-16 py-7 text-xl shadow-2xl hover:shadow-blue-500/40 dark:bg-transparent dark:border dark:border-white/10 dark:rounded-2xl dark:px-6 dark:py-3 dark:text-white/60 dark:hover:text-white dark:shadow-none dark:hover:shadow-none dark:font-black dark:tracking-widest dark:uppercase dark:flex dark:items-center dark:gap-3 dark:text-sm"
@@ -27,18 +27,15 @@ export default function Footer() {
 
         <div className="w-full flex flex-col md:flex-row items-center justify-between pt-16 border-t border-blue-100/50 gap-8 dark:pt-8 dark:border-white/5 dark:justify-center">
            <div className="flex items-center gap-6 text-slate-400 font-bold text-[11px] tracking-[0.3em] uppercase dark:hidden">
-              <span>BEWIN BABU</span>
+              <span>VISHNU KUNNAMPULLY SURESH</span>
               <div className="w-2 h-2 bg-blue-500/20 rounded-full" />
-              <span>SOFTWARE ENGINEER</span>
+              <span>ELECTRONICS TECHNICIAN</span>
            </div>
-           <p className="text-[11px] text-slate-300 tracking-[0.4em] uppercase font-bold flex items-center gap-2 dark:text-white/40 dark:tracking-[0.2em] dark:text-sm dark:font-black">
+           <p className="text-[11px] text-slate-300 tracking-[0.4em] uppercase font-bold flex items-center gap-2 dark:text-white/40 dark:tracking-[0.2em] dark:text-sm dark:font-black text-center">
               © 2026 <span className="dark:inline"> </span>
-              <span className="dark:text-white">BEWIN BABU</span>
+              <span className="dark:text-white">VISHNU KUNNAMPULLY SURESH</span>
               <span className="dark:hidden"><Heart size={14} className="text-red-300 fill-red-300" /></span>
-              <span className="hidden dark:inline"> | ADVANCED SOFTWARE ENGINEERING</span>
-           </p>
-           <p className="dark:hidden text-[11px] text-slate-300 tracking-[0.4em] uppercase font-bold flex items-center gap-2">
-              // CRAFTED WITH <Heart size={14} className="text-red-300 fill-red-300" />
+              <span className="hidden dark:inline text-center"> | INDUSTRIAL AUTOMATION & ELECTRONICS</span>
            </p>
         </div>
       </div>

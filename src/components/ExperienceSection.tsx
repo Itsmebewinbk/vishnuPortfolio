@@ -3,43 +3,40 @@ import { memo } from "react";
 
 const experiences = [
   {
-    company: "Cubet Techno Labs",
-    role: "Software Engineer",
-    period: "Jan 2026 – Present",
+    company: "ARABIAN INDUSTRIES PROJECTS",
+    role: "INSTRUMENT TECHNICIAN",
+    period: "01.03.2022 – 18.06.2025",
     points: [
-      "Building full-stack applications with React and Django/FastAPI.",
-      "Developing Generative AI solutions and intelligent automation systems.",
-      "Architecting scalable frontend and backend systems for enterprise clients."
+      "Instrumentenkalibrierung (Regelventile, Druckschalter, Drucktransmitter, Füllstandstransmitter, Durchfluss‐transmitter, Temperaturtransmitter, Vibrationssensoren)",
+      "Reparatur, Wartung und Installation von Instrumenten vor Ort",
+      "Verlegung, Verschraubung (Glanding), Anschluss und Prüfung von Instrumentenkabeln",
+      "Kabelanschluss und -terminierung in Schaltschränken",
+      "Bearbeitung und Interpretation von R&I-Fließschemata (P&ID)",
+      "Unterstützung von Lieferanten bei Konfiguration und Programmierung",
+      "Isolationsmessungen (Megger-Tests) bei Installationen",
+      "Erstellung von Kalibrierzertifikaten und technische Dokumentation"
     ],
   },
   {
-    company: "Leader Group",
-    role: "Software Engineer",
-    period: "Jul 2025 – Jan 2026",
+    company: "J LAWRENCE PRO AUDIO PVT. LTD",
+    role: "ELECTRONICS ENGINEERING TECHNICIAN",
+    period: "15.03.2018 – 30.09.2020",
     points: [
-      "Architected secure document management ecosystems.",
-      "Engineered high-performance background services with Django.",
-      "Implemented advanced encryption and OCR pipelines."
+      "Produktionssteuerung des gesamten Werks und Führung eines Teams von über 25 Mitarbeitenden",
+      "Tägliche Überwachung der Produktionsabläufe, Schadensmanagement und Fehlerbehebung",
+      "Sicherstellung der Produktqualität bei der Herstellung von Audiosystemen (Lautsprecher, Verstärker, etc.)",
+      "Erstellung und Einreichung von Berichten und Abwicklung verkaufter Produkte"
     ],
   },
   {
-    company: "EC Infosolutions",
-    role: "Software Engineer",
-    period: "Apr 2024 – Jul 2025",
+    company: "DOHA PETROLEUM CONSTRUCTION PVT. LTD",
+    role: "ELECTRONICS ENGINEERING TECHNICIAN",
+    period: "20.04.2014 – 17.01.2016",
     points: [
-      "Orchestrating IoT connectivity using AWS IoT & MQTT.",
-      "Designing robust GraphQL and REST APIs with FastAPI.",
-      "Optimizing complex background worker tasks and real-time sync."
-    ],
-  },
-  {
-    company: "Enfono Technologies",
-    role: "Junior Software Engineer",
-    period: "Nov 2022 – Dec 2023",
-    points: [
-      "Developed production-grade Web services with scalable foundations.",
-      "Integrated secure authentication protocols and automated services.",
-      "Collaborated on system strategy and cloud deployment quests."
+      "Prüfung, Fehlersuche und Reparatur von Ventilen, pneumatischen Antrieben und Stellungsreglern",
+      "Hydraulische Druckprüfung von Rohrleitungen und Behältern",
+      "Installation und Wartung von Regelventilen, Kugelhähnen und verschiedenen Ventilarten",
+      "Installation von Stellungsreglern (Positionern) an Regelventilen"
     ],
   },
 ];
@@ -84,7 +81,7 @@ export default function ExperienceSection() {
     <section id="experience" className="section-padding relative z-10">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-24">
-          <h2 className="text-4xl sm:text-6xl font-black text-blue-600 text-center tracking-tighter mb-4 uppercase dark:text-white dark:glow-text">Career Odyssey</h2>
+          <h2 className="text-4xl sm:text-6xl font-black text-blue-600 text-center tracking-tighter mb-4 uppercase dark:text-white dark:glow-text">Berufserfahrung</h2>
           <div className="w-24 h-2 bg-blue-500/20 rounded-full dark:bg-blue-600/30 dark:shadow-[0_0_20px_rgba(37,99,235,0.4)]" />
         </div>
 

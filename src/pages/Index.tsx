@@ -7,7 +7,7 @@ import HeroSection from "@/components/HeroSection";
 const AboutSection = lazy(() => import("@/components/AboutSection"));
 const SkillsSection = lazy(() => import("@/components/SkillsSection"));
 const ExperienceSection = lazy(() => import("@/components/ExperienceSection"));
-const ProjectsSection = lazy(() => import("@/components/ProjectsSection"));
+const EducationSection = lazy(() => import("@/components/EducationSection"));
 const ContactSection = lazy(() => import("@/components/ContactSection"));
 const Footer = lazy(() => import("@/components/Footer"));
 const NeuralFluidBackground = lazy(() => import("@/components/NeuralFluidBackground"));
@@ -41,7 +41,7 @@ const Index = () => {
             <div className="h-40 bg-gradient-to-b from-transparent to-white/10 dark:to-transparent" />
             <SkillsSection />
             <ExperienceSection />
-            <ProjectsSection />
+            <EducationSection />
             <ContactSection />
             <Footer />
           </div>

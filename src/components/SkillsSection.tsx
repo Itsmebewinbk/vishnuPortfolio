@@ -2,20 +2,20 @@ import { motion } from "framer-motion";
 
 const categories = [
   { 
-    title: "System Drive", 
-    skills: ["Python", "Django", "FastAPI", "Distributed Systems", "Scaling", "Redis", "Celery"] 
+    title: "Technisches Wissen", 
+    skills: ["Petroleum Gas Plant Knowledge", "Process Improvement", "Instrument Calibration", "Technical Documentation"] 
   },
   { 
-    title: "Eco-Commerce", 
-    skills: ["Shopify", "React JS", "Javascript", "HTML5", "CSS3", "TailwindCSS"] 
+    title: "Methodik", 
+    skills: ["Quick Learning", "Problem Solving", "Communication", "Adaptability", "Time Management"] 
   },
   { 
-    title: "Cloud Command", 
-    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Nginx", "Linux Admin"] 
+    title: "Sprachen (Mastery)", 
+    skills: ["MALAYALAM (Muttersprache)", "ENGLISCH (B1)", "HINDI (B1)", "TAMILISCH (A1)", "DEUTSCH (A2)"] 
   },
   { 
-    title: "Neural Network", 
-    skills: ["OpenAI API", "LangChain", "RAG Systems", "AI Agents", "Prompt Engineering"] 
+    title: "Werkzeuge & Tests", 
+    skills: ["P&ID Interpretation", "Megger-Tests", "Glanding", "Loop Checking", "Fault Finding"] 
   },
 ];
 
@@ -24,7 +24,7 @@ export default function SkillsSection() {
     <section id="skills" className="section-padding relative z-10 overflow-hidden dark:bg-black/20">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center mb-24">
-          <h2 className="text-4xl sm:text-6xl font-black text-blue-600 text-center tracking-tighter mb-4 uppercase dark:text-white dark:glow-text">Expertise Stack</h2>
+          <h2 className="text-4xl sm:text-6xl font-black text-blue-600 text-center tracking-tighter mb-4 uppercase dark:text-white dark:glow-text">Kompetenzen</h2>
           <div className="w-24 h-2 bg-blue-500/20 rounded-full dark:bg-blue-600/30 dark:shadow-[0_0_20px_rgba(37,99,235,0.4)]" />
         </div>
         
