@@ -161,7 +161,7 @@ export default function HeroSection() {
             className="absolute -bottom-10 -right-10 glass-shinkai px-10 py-6 border-white/80 shadow-xl dark:border-white/10 dark:glow-box"
           >
             <span className="text-blue-600 font-black text-xl italic uppercase font-display leading-tight dark:text-white dark:not-italic dark:tracking-widest dark:text-lg">
-              8+ JAHRE <br /> ERFAHRUNG
+              6+ JAHRE <br /> ERFAHRUNG
             </span>
           </motion.div>
         </motion.div>
